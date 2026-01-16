@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <title>L'Atelier</title>
     
-    <link rel="apple-touch-icon" href="https://img.icons8.com/nolan/512/sparkling.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://img.icons8.com/nolan/512/sparkling.png">
+    <link rel="apple-touch-icon" href="./icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon.png">
     
     <meta name="apple-mobile-web-app-title" content="L'Atelier">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <script>
-        // 3. 關鍵修正：延遲 1.5 秒再跳轉
-        // 這給了 iPhone Safari 足夠的時間去「下載」並「記住」這顆星星圖示
         window.onload = function() {
             setTimeout(function() {
+                // 記得這裡要放你正確的 Google Sites 網址
                 window.location.replace("https://sites.google.com/view/你的網站名稱");
             }, 1500); 
         };
@@ -22,7 +21,7 @@
 </head>
 <body style="background-color: #ffffff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: -apple-system, sans-serif;">
     <div style="text-align: center;">
-        <img src="https://img.icons8.com/nolan/512/sparkling.png" width="80" style="margin-bottom: 20px;">
+        <img src="./logo.png" width="100" style="border-radius: 20%; margin-bottom: 20px;">
         <p style="color: #666; font-size: 18px;">正在開啟 L'Atelier...</p>
     </div>
 </body>
