@@ -5,12 +5,15 @@
     <title>L'Atelier</title>
     
     <link rel="apple-touch-icon" href="./icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./icon.png">
     
     <meta name="apple-mobile-web-app-title" content="L'Atelier">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
     <script>
+        // 3. 設定延遲 3 秒跳轉，確保 iPhone 有時間下載並顯示圖示
         window.onload = function() {
             setTimeout(function() {
                 window.location.replace("https://sites.google.com/view/islandtime/latelier");
@@ -20,8 +23,8 @@
 </head>
 <body style="background-color: #ffffff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: -apple-system, sans-serif;">
     <div style="text-align: center;">
-        <img src="./logo.png" width="100" style="border-radius: 20%; margin-bottom: 20px;">
-        <p style="color: #666; font-size: 18px;">正在開啟 L'Atelier...</p>
+        <img src="./icon.png" width="100" style="border-radius: 22%; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <p style="color: #666; font-size: 18px; font-weight: 500;">正在開啟 L'Atelier...</p>
     </div>
 </body>
 </html>
